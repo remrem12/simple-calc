@@ -1,0 +1,56 @@
+.col-3{
+    width: 75%;
+    float: left;
+}
+
+.col-2{
+    width: 50%;
+    float: left;
+}
+
+.col-1{
+    width: 25%;
+    float: left;
+}
+
+.calc-but {
+    height: 80px;
+    border: 2px solid white;
+    width: 100%;
+    font-size: 2rem;
+    background: #e5e5e531;
+    color: rgba(0, 0, 0, 0.404);
+    box-shadow: inset 0 0 20px 0px #ed9cf587;
+    outline: none;
+}
+
+.calc-but:hover, .calc-but:visited{
+    box-shadow: 0 0 20px 0px #ed9cf587;
+    color: black;
+    text-shadow: 0 0 5px rgba(178, 248, 172, 0.959);
+    font-size: 2.2rem;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1rem auto;
+    outline: none;
+    border-radius: 3px;
+    height: 50px;
+    border: none;
+    background: rgba(224, 255, 255, 0.089);
+    font-size: 1.8rem;
+    padding: .5rem 1rem;
+    box-shadow: 0 0 20px rgba(205, 243, 243, 0.959);
+    text-align: right;
+    float: right;
+    
+}
+
+.floaty-last{
+    height: 2rem;
+    width: 100%;
+    line-height: 2rem;
+    text-align: left;
+}
